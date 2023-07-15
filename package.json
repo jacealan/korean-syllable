@@ -1,6 +1,6 @@
 {
   "name": "korean-syllable",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "get a any string",
   "main": "lib/index.js",
   "files": [
@@ -11,7 +11,7 @@
     "build": "tsc"
   },
   "author": "Jace",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.4.2",
     "typescript": "^5.1.6"

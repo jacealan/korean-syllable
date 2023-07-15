@@ -49,8 +49,8 @@ console.log(ex) // 둎찍굍 뺍푡롁 쯚럔
 
 ### parameters
 
-- length, withspace가 없으면 한음절 생성
-- withspace가 없거나 false면 공백없이 원하는 길이의 음절 생성
+- length, withspace가 없으면 한 음절 생성
+- withspace가 없거나 false면 공백 없이 원하는 길이의 음절 생성
 
 ## references
 
