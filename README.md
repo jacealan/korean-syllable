@@ -2,6 +2,9 @@
 
 Korean-Syllable is the module that make any korean syllable.
 
+- github: https://github.com/jacealan/korean-syllable
+- npm: https://www.npmjs.com/package/korean-syllable
+
 # Installation
 
 ```shell
