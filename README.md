@@ -1,4 +1,4 @@
-# Korean-Syllable
+# Korean-Syllable: 한글 음절 생성기
 
 Korean-Syllable is the module that make any korean syllable.
 
@@ -46,6 +46,11 @@ const withspace: boolean = true
 const ex: string = koreanSyllable(length, withspace)
 console.log(ex) // 둎찍굍 뺍푡롁 쯚럔
 ```
+
+### parameters
+
+- length, withspace가 없으면 한음절 생성
+- withspace가 없거나 false면 공백없이 원하는 길이의 음절 생성
 
 ## references
 
