@@ -21,6 +21,11 @@ import { koreanSyllable } from "korean-syllable"
 
 ## Making any korean syllable(s)
 
+### parameters
+
+- length, withspace가 없으면 한 음절 생성
+- withspace가 없거나 false면 공백 없이 원하는 길이의 음절 생성
+
 ### 1 syllable
 
 ```ts
@@ -46,11 +51,6 @@ const withspace: boolean = true
 const ex: string = koreanSyllable(length, withspace)
 console.log(ex) // 둎찍굍 뺍푡롁 쯚럔
 ```
-
-### parameters
-
-- length, withspace가 없으면 한 음절 생성
-- withspace가 없거나 false면 공백 없이 원하는 길이의 음절 생성
 
 ## references
 
